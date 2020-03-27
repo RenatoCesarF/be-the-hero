@@ -1,8 +1,9 @@
 const connection = require('../database/connection');
 
+//exportação desta página
 module.exports = {
     async index(request, response) {
-        const { page = 1 } = request.query;
+        const { page = 1 } = request.query;  
         
         const [count] = await connection('incidents').count();
 
@@ -23,7 +24,7 @@ module.exports = {
         return response.json(incidents);
     },
 
-    async create(request, response) {
+    async create(request, response) {                //Criando casos atravez do insomnia
         const { title, description, value } = request.body;
         const ong_id = request.headers.authorization;
 
@@ -37,7 +38,7 @@ module.exports = {
         return response.json({ id });
     },
 
-    async delete(request, response) {
+    async delete(request, response) {    //Deletando casos atravez do insomnia
         const { id } = request.params;
         const ong_id = request.headers.authorization;
 
