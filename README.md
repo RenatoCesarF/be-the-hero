@@ -16,7 +16,8 @@ atravez de e-mail ou WhatsApp.
 * Aplicativo moble compativel com IOS e Android utilizando Expo, e conectado ao banco de dados
 * Conexão do App com WhatsApp e e-mail
 
-## :globe_with_meridians:	 Tecnologias usadas:* React-JS
+## :globe_with_meridians:	 Tecnologias usadas:
+* React-JS
 * React-Native
 * Banco de dados SQL
 * Expo
