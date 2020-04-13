@@ -1,10 +1,9 @@
 ![logo](https://user-images.githubusercontent.com/62253156/77809475-35cfb000-7066-11ea-9af4-21e8163a450d.png)
 
-
+## :computer:Projeto
 Aplicação feita durante a Semana OmniStak da RockesSeat. 
 Tem como objetivo aproximar ONGs a possíveis doadores.
-A aplicação funciona com um cadastro, atravez do Site, p
-or parte da ONG de um dos casos que a mesma necessita de doação.
+A aplicação funciona com um cadastro, atravez do Site, por parte da ONG de um dos casos que a mesma necessita de doação.
 A pessoa que tiver o aplicativo pode visualizar esses casos cadastrados e contactar a ONG caso deseje, esse contato pode se feito 
 atravez de e-mail ou WhatsApp.
 
@@ -17,8 +16,15 @@ atravez de e-mail ou WhatsApp.
 * Aplicativo moble compativel com IOS e Android utilizando Expo, e conectado ao banco de dados
 * Conexão do App com WhatsApp e e-mail
 
+## :globe_with_meridians:	 Tecnologias usadas:* React-JS
+* React-Native
+* Banco de dados SQL
+* Expo
+* Node-JS
+
 OBS: as imagens usadas no desenvolvimento foram cedidas pela Rocket Seat
 
+# :newspaper:Layout	
 ## Tela de Login 
 ![LOGON](https://user-images.githubusercontent.com/62253156/77809732-66641980-7067-11ea-8819-de5ab762585e.jpg)
 
